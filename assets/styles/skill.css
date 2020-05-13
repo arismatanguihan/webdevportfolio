@@ -1,0 +1,48 @@
+.skill-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1em 1.5em;
+    height: auto;
+    overflow: hidden;
+    flex-grow: 1;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.row {
+    margin: 0;
+    margin-top: 1em;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.skill-icon{
+    height: 100px;
+    width: 100px;
+}
+
+@media screen and (max-width: 900px) {
+    .column {
+      width:50%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+      .column {
+        width: 100%;
+      }
+  }
+  

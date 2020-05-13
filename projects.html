@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aris Matanguihan | Projects</title>
+    <link rel="icon" type="ico" href="assets/images/favicon.ico">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="assets/styles/project.css">
+    <script src="assets/script/script.js" async></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+<body class="full-height-grow">
+    <header class="main-header">
+        <nav class="navbar">
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                <i class="fas fa-bars"></i>
+            </span>
+            <a href="index.html" class="logo">Aris Matanguihan</a>
+                <ul class="main-nav" id="js-menu">
+                    <li>
+                        <a href="index.html" class="nav-links">Home</a>
+                    </li>
+                    <li>
+                        <a href="projects.html" class="nav-links active2">Projects</a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="nav-links">About</a>
+                    </li>
+                    <li>
+                        <a href="skill.html" class="nav-links">Skill</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="nav-links">Contact</a>
+                    </li>
+                </ul>
+        </nav>
+    </header>
+    <section class="project-container">
+        <div class="main">
+            <h1>PROJECTS</h1>
+            <hr>
+
+            <div id="myBtnContainer">
+                <button class="btn active3" onclick="filterSelection('all')">Show All</button>
+                <button class="btn" onclick="filterSelection('html')">HTML/CSS</button>
+                <button class="btn" onclick="filterSelection('js')">Javascript</button>
+                <button class="btn" onclick="filterSelection('java')">Java</button>
+            </div>
+
+            <div class="row">
+                <div class="column html">
+                    <div class="content">
+                        <img class="img-project" src="assets/images/cap1_1.png" alt="">
+                        <h4>The World of Final Fantasy</h4>
+                        <p>Created a responsive static website about the Final Fantasy video game series.</p>
+                        <p class="tools-txt">Tools: Sublime Text, Git</p>
+                        <a href="https://arismatanguihan.github.io/capstone1" target="_blank"><button type="button" class="project-btn">Go to Website</button></a>
+                    </div>
+                </div>
+                <div class="column java">
+                    <div class="content">
+                        <img class="img-project" src="assets/images/cap2_1.png" alt="">
+                        <h4>Book Management System</h4>
+                        <p>Created a responsive request system website for books using CRUD repository and Spring framework.</p>
+                        <p class="tools-txt">Tools: Sublime Text, Node.js, Spring, IntelliJ, XAMPP, Heroku</p>
+                        <a href="https://bookrequestsystem.herokuapp.com" target="_blank"><button type="button" class="project-btn">Go to Website</button></a>
+                    </div>
+                </div>
+                <div class="column java">
+                    <div class="content">
+                        <img class="img-project" src="assets/images/cap3_1.png" alt="">
+                        <h4>Hotel Management System</h4>
+                        <p>Created a responsive online hotel booking system using RESTful APIs and Spring framework. </p>
+                        <p class="tools-txt">Tools: Sublime Text, Node.js, Spring, IntelliJ, Robo3T, Heroku</p>
+                        <a href="https://onlinehotelbooking.herokuapp.com" target="_blank"><button type="button" class="project-btn">Go to Website</button></a>
+                    </div>
+                </div>
+                <div class="column html">
+                    <div class="content">
+                        <img class="img-project" src="assets/images/soundwave_1.png" alt="">
+                        <h4>Soundwave</h4>
+                        <p>Created a music streaming front-end layout using HTML and CSS.</p>
+                        <p class="tools-txt">Tools: Sublime Text, Git</p>
+                        <a href="https://arismatanguihan.github.io/soundwavefe/" target="_blank"><button type="button" class="project-btn">Go to Website</button></a>
+                    </div>
+                </div>
+                <div class="column html">
+                    <div class="content">
+                        <img class="img-project" src="assets/images/coldplay_site1.png" alt="">
+                        <h4>Band Website</h4>
+                        <p>Created a band website with a store page  using HTML, CSS and Javascript.</p>
+                        <p class="tools-txt">Tools: Visual Studio Code, Git</p>
+                        <a href="https://arismatanguihan.github.io/band_website/index.html" target="_blank"><button type="button" class="project-btn">Go to Website</button></a>
+                    </div>
+                </div>
+                <div class="column js">
+                    <div class="content">
+                        <img class="img-project" src="assets/images/jscalc.png" alt="">
+                        <h4>Online Calculator</h4>
+                        <p>Developed a simple calculator that can do simple computations.</p>
+                        <p class="tools-txt">Tools: Sublime Text, Git</p>
+                        <a href="https://arismatanguihan.github.io/jscalculator/" target="_blank"><button type="button" class="project-btn">Go to Website</button></a>
+                    </div>
+                </div>
+                <div class="column js">
+                    <div class="content">
+                        <img class="img-project" src="assets/images/jsclock.png" alt="">
+                        <h4>Online Clock</h4>
+                        <p>Created a simple online clock that displays the current time.</p>
+                        <p class="tools-txt">Tools: Sublime Text, Git</p>
+                        <a href="https://arismatanguihan.github.io/jsclock/" target="_blank"><button type="button" class="project-btn">Go to Website</button></a>
+                    </div>
+                </div>
+                <div class="column js">
+                    <div class="content">
+                        <img class="img-project" src="assets/images/jspiano.png" alt="">
+                        <h4>Online Piano</h4>
+                        <p>Created a simple piano game that plays like a real piano.</p>
+                        <p class="tools-txt">Tools: Sublime Text, Git</p>
+                        <a href="https://arismatanguihan.github.io/jspiano/" target="_blank"><button type="button" class="project-btn">Go to Website</button></a>
+                    </div>
+                </div>
+                <div class="column js">
+                    <div class="content">
+                        <img class="img-project" src="assets/images/cap4_1.png" alt="">
+                        <h4>Online Piano</h4>
+                        <p>Created a simple Bird Game where the player controls the bird while avoiding obstacles as much as possible.</p>
+                        <p class="tools-txt">Tools: Sublime Text, Git</p>
+                        <a href="https://arismatanguihan.github.io/jsgame/" target="_blank"><button type="button" class="project-btn">Go to Website</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+    <footer class="main-footer">
+        <div class="container main-footer-container">
+            <div><h3 class="contact-info"><i class="fas fa-phone"></i> +639281061397</h3></div>
+            <div><h3 class="footer-info">Aris Matanguihan | Web Developer</h3></div>
+            <div>
+                <ul class="nav footer-nav">
+                    <li>
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <img src="assets/images/facebook.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/" target="_blank">
+                            <img src="assets/images/github.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/" target="_blank">
+                            <img src="assets/images/linkedin.png">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div><h3 class="email-info"><i class="far fa-envelope"></i> Email: aris.matanguihan@gmail.com</h3></div>
+        </div>
+    </footer>
+</body>
+</html>
